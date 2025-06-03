@@ -30,7 +30,7 @@ print("Backup Uploded Successfully...")
 
 
 bucket_name= "tuhins-backup-folder2"         # Give a S3 Bucket name, It must be have unique 
-file_name = "/home/tuhin/Documents/VS Code_Code/TWS_Python/Python/backups/backup_2025-06-03.tar.gz"    # Give you local Mahine path of the folder
+file_name = "/home/tuhin/Documents/VS Code_Code/TS_Python/Python/backups/backup_2025-06-03.tar.gz"    # Give you local Mahine path of the folder
 
 create_bucket(s3, bucket_name) #call function
 show_buckets(s3)  #call fucntion
@@ -48,7 +48,7 @@ This is extra part....
 from datetime import datetime
 
 bucket_name1 = "tuhins-backup-folder1"   # Give a S3 Bucket name, It must be have unique 
-file_name = "/home/tuhin/Documents/VS Code_Code/TWS_Python/Python/backups/backup_2025-06-03.tar.gz"   # Give you local Mahine path of the folder
+file_name = "/home/tuhin/Documents/VS Code_Code/TS_Python/Python/backups/backup_2025-06-03.tar.gz"   # Give you local Mahine path of the folder
 
 create_bucket(s3, bucket_name1)
 show_buckets(s3)
