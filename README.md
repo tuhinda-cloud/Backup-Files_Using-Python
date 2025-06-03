@@ -45,6 +45,6 @@ python3 -m venv venv  (This command creating a virtual environment for running t
 ```bash
 # aws configure
 
-After that Give a Access key and Secrate key, Which You can create throung IAM.
+After that Give a Access key and Secrate key, Which You can create through IAM.
 ```
 
